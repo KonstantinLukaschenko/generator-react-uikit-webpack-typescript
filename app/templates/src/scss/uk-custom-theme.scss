@@ -1,0 +1,38 @@
+// 1. Your custom variables and variable overwrites.
+$offcanvas-bar-background:  rgba(0, 0, 0, 0.5) !default;
+$navbar-nav-item-text-transform: none !default;
+
+// 2. Import default variables and available mixins.
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+@mixin hook-base-body() {
+  @media only screen and (max-width: $breakpoint-small) {
+    background-size: cover;
+  }
+
+  background-image: url("./images/footer-background.svg"), linear-gradient(#5B7DED, #3651AC);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+@mixin hook-button() {
+  border-radius: 5px;
+}
+
+@mixin hook-navbar-nav-item() {
+  font-weight: lighter;
+}
+
+@mixin hook-button-small(){
+  font-weight:  lighter;
+}
+
+@mixin hook-base-h1() {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+// 4. Import UIkit.
+@import "uikit/src/scss/uikit-theme.scss";

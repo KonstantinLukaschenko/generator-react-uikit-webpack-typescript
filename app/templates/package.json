@@ -1,0 +1,46 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "homepage": "https://github.com/<%= repository %>",
+  "scripts": {
+    "start": "webpack-dev-server --inline --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "npm run build && s3-upload"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= repository %>.git"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/<%= repository %>/issues"
+  },
+  "browserslist": [ "> 1%", "ie > 9" ],
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "file-loader": "^1.1.11",
+    "s3-upload": "^0.1.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "css-loader": "^1.0.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4",
+    "mini-css-extract-plugin": "^0.4.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "react": "16.4.2",
+    "react-dom": "^16.4.2",
+    "uikit": "^3.0.0-rc.11"
+  }
+}

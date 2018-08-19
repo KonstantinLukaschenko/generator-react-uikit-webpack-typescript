@@ -1,0 +1,19 @@
+{
+  "name": "generator-react-uikit-webpack-typescript",
+  "version": "1.0.0",
+  "description": "A yeoman generator that scaffolds out a webapp based on react, uikit, webpack and typescript.",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "react",
+    "uikit",
+    "webpack",
+    "typescript",
+    "yeoman"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^3.1.1"
+  }
+}
