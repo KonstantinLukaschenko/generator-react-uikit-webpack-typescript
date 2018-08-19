@@ -2,6 +2,9 @@
   "name": "generator-react-uikit-webpack-typescript",
   "version": "1.0.0",
   "description": "A yeoman generator that scaffolds out a webapp based on react, uikit, webpack and typescript.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "KonstantinLukaschenko/generator-react-uikit-webpack-typescript",
   "files": [
     "app"
   ],
