@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/screenshot.png" alt="screenshot" width="600px" />
+</p>
+
 # generator-react-uikit-webpack-typescript
 A [yeoman](https://yeoman.io) generator that scaffolds out
 a webapp based on [react](https://reactjs.org), [uikit](https://getuikit.com), [webpack](https://webpack.js.org) and [typescript](https://www.typescriptlang.org).
