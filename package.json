@@ -4,7 +4,16 @@
   "description": "A yeoman generator that scaffolds out a webapp based on react, uikit, webpack and typescript.",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "KonstantinLukaschenko/generator-react-uikit-webpack-typescript",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KonstantinLukaschenko/generator-react-uikit-webpack-typescript.git"
+  },
+  "contributors": [
+    "Konstantin Lukaschenko"
+  ],
+  "bugs": {
+    "url": "https://github.com/KonstantinLukaschenko/generator-react-uikit-webpack-typescript/issues"
+  },
   "files": [
     "app"
   ],
