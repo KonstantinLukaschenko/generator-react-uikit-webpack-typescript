@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/screenshot.png" alt="screenshot" width="600px" />
+  <img src="https://github.com/KonstantinLukaschenko/generator-react-uikit-webpack-typescript/raw/master/.github/screenshot.png" alt="screenshot" width="600px" />
 </p>
 
 # generator-react-uikit-webpack-typescript [![Build Status](https://travis-ci.org/KonstantinLukaschenko/generator-react-uikit-webpack-typescript.svg?branch=master)](https://travis-ci.org/KonstantinLukaschenko/generator-react-uikit-webpack-typescript)
