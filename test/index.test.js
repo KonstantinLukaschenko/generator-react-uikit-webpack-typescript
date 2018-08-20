@@ -31,11 +31,6 @@ describe('react-uikit-webpack-typescript:app', () => {
                     'src/images/logo.svg',
                     'src/images/footer-background.svg'
                 ]);
-
-                assert.fileContent(
-                    'package.json',
-                    '"name": "my-app"',
-                  );
             });
     });
     it('replaces placeholders from prompt input', () => {
