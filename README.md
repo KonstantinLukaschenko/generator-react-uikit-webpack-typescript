@@ -2,7 +2,7 @@
   <img src=".github/screenshot.png" alt="screenshot" width="600px" />
 </p>
 
-# generator-react-uikit-webpack-typescript
+# generator-react-uikit-webpack-typescript [![Build Status](https://travis-ci.org/KonstantinLukaschenko/generator-react-uikit-webpack-typescript.svg?branch=master)](https://travis-ci.org/KonstantinLukaschenko/generator-react-uikit-webpack-typescript)
 A [yeoman](https://yeoman.io) generator that scaffolds out
 a webapp based on [react](https://reactjs.org), [uikit](https://getuikit.com), [webpack](https://webpack.js.org) and [typescript](https://www.typescriptlang.org).
 
