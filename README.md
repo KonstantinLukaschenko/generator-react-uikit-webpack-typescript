@@ -8,7 +8,7 @@ a webapp based on [react](https://reactjs.org), [uikit](https://getuikit.com), [
 
 ## Getting Started
 
- * Install: `npm install -g generator-react-uikit-webpack-typescript`
+ * Install: `yarn global add generator-react-uikit-webpack-typescript`
  * Run `yo react-uikit-webpack-typescript`
  * Run `yarn` to download npm dependencies
  * Run `yarn run build` to build the webapp into the dist directory
