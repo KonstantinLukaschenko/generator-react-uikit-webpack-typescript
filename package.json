@@ -1,6 +1,6 @@
 {
   "name": "generator-react-uikit-webpack-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A yeoman generator that scaffolds out a webapp based on react, uikit, webpack and typescript.",
   "license": "MIT",
   "main": "app/index.js",
